@@ -1,0 +1,35 @@
+.header {
+    background: var(--bg-color);
+    box-shadow: 3px 8px 21px 21px var(--shadow);
+    -webkit-box-shadow: 3px 8px 21px 21px var(--shadow);
+    -moz-box-shadow: 3px 8px 21px 21px var(--shadow);
+    margin-bottom: 100px;
+}
+
+.header__content {
+    max-width: 1470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.header__link {
+    line-height: 17px;
+    color: #DC3E22;
+    text-decoration: none;
+}
+
+.header__static {
+    margin-right: 5px;
+}
+
+.icon__group {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

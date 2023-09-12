@@ -1,0 +1,15 @@
+    .form {
+        display: table-caption;
+        margin-bottom: 25px;
+    }
+    
+    .form__btn {}
+    
+    input {
+        width: 370px;
+        padding: 19px 15px;
+        background-color: #F4F4F4;
+        outline: none;
+        border: none;
+        margin-bottom: 25px;
+    }

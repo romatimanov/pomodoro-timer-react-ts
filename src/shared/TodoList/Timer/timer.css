@@ -1,0 +1,153 @@
+.timer {
+    width: 60%;
+}
+
+.timer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 40px;
+    background: #C4C4C4;
+    color: #fff;
+}
+
+.timer__header-start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 40px;
+    background: #DC3E22;
+    color: #fff;
+}
+
+.timer__header-break {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 40px;
+    background: #A8B64F;
+    color: #fff;
+}
+
+.timer__text {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.timer__content {
+    text-align: center;
+    background: var(--bg-timer);
+    padding: 70px 50px;
+}
+
+.timer__time {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.timer__title {
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    line-height: 179px;
+    font-weight: 200;
+    color: #333;
+    margin: 0;
+}
+
+.timer__zero {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.timer__stop {
+    padding: 15px 50px;
+    background: none;
+    border: 2px solid #DC3E22;
+    color: #DC3E22;
+    line-height: 17px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.timer__stop:hover {
+    background: #DC3E22;
+    color: #fff;
+}
+
+.timer__btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.timer__todo {
+    line-height: 17px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.time-todo {
+    color: #999999;
+}
+
+.start__time {
+    color: #DC3E22;
+    font-size: 150px;
+    line-height: 179px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.break__time {
+    color: #A8B64F;
+    font-size: 150px;
+    line-height: 179px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.timer__start {
+    padding: 19px 50px;
+    background: #A8B64F;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.timer__start:hover {
+    background: #899441
+}
+
+.timer__stop-dis {
+    padding: 15px 50px;
+    background: none;
+    border: 2px solid #C4C4C4;
+    color: #C4C4C4;
+    line-height: 17px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.settings__btn {
+    width: 50px;
+    height: 50px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    padding-top: 3px;
+    transition: all 0.3s ease 0s;
+}
+
+.settings__btn:hover {
+    background-color: #A8B64F;
+}
+
+.btn-setting {
+    margin-bottom: 30px;
+}
