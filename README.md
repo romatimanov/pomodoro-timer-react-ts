@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+Pomodoro Timer — это веб-приложение, созданное для управления временем с использованием техники Pomodoro. Приложение помогает пользователям планировать работу и отдых, разделяя рабочее время на интервалы с короткими перерывами.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Основные технологии и библиотеки
 
-## Available Scripts
+React — библиотека для разработки пользовательских интерфейсов.
+TypeScript — типизация для повышения надежности кода и улучшения разработки.
+Redux Toolkit — управление состоянием приложения с использованием Redux, а также интеграция с DevTools и Thunk для обработки асинхронных действий.
+React Router DOM — для маршрутизации и навигации между страницами приложения.
+React Countdown Circle Timer — библиотека для создания анимированного таймера обратного отсчета.
+Chart.js и React Chart.js 2 — для отображения статистики в виде графиков.
+Date-fns — работа с датами и временем.
+Framer Motion — для создания анимаций и улучшения пользовательского интерфейса.
+Скрипты
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm i - установка зависимостей
+npm start — запуск приложения в режиме разработки.
+npm run build — сборка приложения для продакшн окружения.
